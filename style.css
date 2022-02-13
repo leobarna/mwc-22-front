@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+}
+body {
+    font-family: Roboto, serif;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 327px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form.data-forms {
+    width: 100%;
+}
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+label.email, label.name, label.textarea, label.country, label.city{
+    margin-bottom: 10px;
+}
+input[type=text]#email, input[type=text]#name {
+    border: 1px solid rgba(60, 66, 87, .12);
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgb(0 0 0/8%), 0 1px 1px rgb(0 0 0 / 4%);
+    border-radius: 8px;
+    padding: 9px 12px;
+}
+textarea {
+    border: 1px solid rgba(60, 66, 87, .12);
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 8%), 0 1px 1px rgb(0 0 0 / 4%);
+    border-radius: 8px;
+    padding: 9px 12px;
+}
+select {
+    border: 1px solid rgba(60, 66, 87, .12);
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 8%), 0 1px 1px rgb(0 0 0 / 4%);
+    border-radius: 8px;
+    padding: 9px 12px;
+}
+button.login-btn {
+    width: 100%;
+    margin-top: 30px;
+    background: #000000;
+    border-radius: 4px;
+    color: white;
+    height: 48px;
+    border: none;
+}
+
+/*view porfile*/
+section.viewporfile {
+    display: flex;
+}
+
+.imageporfile {
+    margin: 0 20px 40px;
+}
+
+.infoporfile {
+    margin: 0 20px 40px;
+}
+
+h1.username {
+    margin: 1em 0 0.5em;
+    font-size: 2rem;
+}
+
+h3.location {
+    margin-bottom: 0.4rem;
+}
+
